@@ -8,6 +8,14 @@ Color getColorBlack() {
   return Colors.black;
 }
 
-Color getColorGrey() {
+Color getColorGreyLight() {
   return const Color.fromARGB(255, 226, 225, 225);
+}
+
+Color getColorGrey() {
+  return Colors.grey;
+}
+
+Color getColorCarrot() {
+  return const Color(0xffe78111);
 }

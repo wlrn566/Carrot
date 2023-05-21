@@ -1,4 +1,5 @@
 import 'package:carrot/pages/home.dart';
+import 'package:carrot/pages/town_life.dart';
 import 'package:flutter/material.dart';
 
 class BottomNavigationBarWidget extends StatefulWidget {
@@ -13,7 +14,7 @@ class _BottomNavigationBarWidgetState extends State<BottomNavigationBarWidget> {
 
   List<Widget> pages = [
     const Home(),
-    const Home(),
+    const TownLife(),
     const Home(),
     const Home(),
   ];
