@@ -82,7 +82,7 @@ class TownLife extends StatelessWidget {
         itemBuilder: (context, index) {
           if (index == 0) {
             return Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 8.0),
+              padding: const EdgeInsets.symmetric(horizontal: 10.0),
               child: SizedBox(
                 height: 30,
                 child: ListView.separated(
@@ -99,7 +99,7 @@ class TownLife extends StatelessWidget {
                           borderRadius: BorderRadius.circular(20.0)
                         ),
                         child: Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 8.0),
+                          padding: const EdgeInsets.symmetric(horizontal: 10.0),
                           child: Center(
                             child: getTextFont14(text: categories[index], color: getColorBlack())
                           ),
@@ -123,7 +123,7 @@ class TownLife extends StatelessWidget {
                 
               },
               child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 12.0),
+                padding: const EdgeInsets.symmetric(horizontal: 10.0),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -137,11 +137,11 @@ class TownLife extends StatelessWidget {
                         child: getTextFont12(text: categories[index], color: getColorBlack()),
                       ),
                     ),
-                    const SizedBox(height: 8.0),
+                    const SizedBox(height: 10.0),
                     getTextFont15(text: datas[index - 1]["title"], color: getColorBlack()),
-                    const SizedBox(height: 8.0),
+                    const SizedBox(height: 10.0),
                     getTextFont13(text: datas[index - 1]["content"], color: getColorGrey()),
-                    const SizedBox(height: 8.0),
+                    const SizedBox(height: 10.0),
                     getTextFont12(text: datas[index - 1]["time"], color: getColorGrey()),
                   ],
                 ),
@@ -152,14 +152,14 @@ class TownLife extends StatelessWidget {
         separatorBuilder: (context, index) {
           if (index == 0) {
             return Padding(
-              padding: const EdgeInsets.symmetric(vertical: 12.0),
+              padding: const EdgeInsets.symmetric(vertical: 10.0),
               child: getDivider(),
             );
 
           } else{
             return 
             Padding(
-              padding: const EdgeInsets.all(12.0),
+              padding: const EdgeInsets.all(10.0),
               child: getDivider(),
             );
           }

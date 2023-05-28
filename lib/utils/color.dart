@@ -4,6 +4,10 @@ Color getColorWhite() {
   return Colors.white;
 }
 
+Color getColorTransparent() {
+  return Colors.transparent;
+}
+
 Color getColorBlack() {
   return Colors.black;
 }
